@@ -5,7 +5,7 @@
         <div class="wrap-breadcrumb">
             <ul>
                 <li class="item-link"><a href="#" class="link">home</a></li>
-                <li class="item-link"><span>Digital & Electronics</span></li>
+                <li class="item-link"><span>Semua Item</span></li>
             </ul>
         </div>
         <div class="row">
@@ -18,9 +18,9 @@
                     </a>
                 </div>
 
-                <div class="wrap-shop-control">
+                {{-- <div class="wrap-shop-control">
 
-                    <h1 class="shop-title">Digital & Electronics</h1>
+                    <h1 class="shop-title">Fashion </h1>
 
                     <div class="wrap-right">
 
@@ -54,7 +54,7 @@
 
                     </div>
 
-                </div><!--end wrap shop control-->
+                </div><!--end wrap shop control--> --}}
 
                 <div class="row">
 
@@ -93,7 +93,7 @@
                 </div>
             </div><!--end main products area-->
 
-            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 sitebar">
+            {{-- <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 sitebar">
                 <div class="widget mercado-widget categories-widget">
                     <h2 class="widget-title">All Categories</h2>
                     <div class="widget-content">
@@ -262,7 +262,7 @@
                     </div>
                 </div><!-- brand widget-->
 
-            </div><!--end sitebar-->
+            </div><!--end sitebar--> --}}
 
         </div><!--end row-->
 

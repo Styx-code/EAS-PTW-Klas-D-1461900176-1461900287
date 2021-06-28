@@ -1,3 +1,3 @@
 <div>
-    <h1>USER DASGOT</h1>
+    <h1>USER DASHBOARD</h1>
 </div>

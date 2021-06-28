@@ -108,7 +108,7 @@
 								<form action="#" id="form-search-top" name="form-search-top">
 									<input type="text" name="search" value="" placeholder="Temukan...">
 									<button form="form-search-top" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
-									<div class="wrap-list-cate">
+									{{-- <div class="wrap-list-cate">
 										<input type="hidden" name="product-cate" value="0" id="product-cate">
 										<a href="#" class="link-control">Kategori</a>
 										<ul class="list-cate">
@@ -130,7 +130,7 @@
 											<li class="level-2">Mp3 Player & Headphones</li>
 											<li class="level-2">Table & Accessories</li>
 										</ul>
-									</div>
+									</div> --}}
 								</form>
 							</div>
 						</div>
@@ -149,7 +149,7 @@
 								<a href="#" class="link-direction">
 									<i class="fa fa-shopping-basket" aria-hidden="true"></i>
 									<div class="left-info">
-										<span class="index">4 items</span>
+										<span class="index">0 items</span>
 										<span class="title">Keranjang</span>
 									</div>
 								</a>
@@ -255,7 +255,7 @@
 										<ul>
 											<li>
 												<i class="fa fa-map-marker" aria-hidden="true"></i>
-												<p class="contact-txt">Jln. Apa aja udah no.34, Surabaya</p>
+												<p class="contact-txt">Jln. Ngagel no.45, Surabaya</p>
 											</li>
 											<li>
 												<i class="fa fa-phone" aria-hidden="true"></i>
@@ -295,10 +295,6 @@
 										<div class="wrap-vertical-nav">
 											<ul>
 												<li class="menu-item"><a href="#" class="link-term">Profil</a></li>
-												{{-- <li class="menu-item"><a href="#" class="link-term">Brands</a></li>
-												<li class="menu-item"><a href="#" class="link-term">Gift Certificates</a></li>
-												<li class="menu-item"><a href="#" class="link-term">Affiliates</a></li> --}}
-												{{-- <li class="menu-item"><a href="#" class="link-term">Wish list</a></li> --}}
 											</ul>
 										</div>
 									</div>
@@ -311,7 +307,6 @@
 												<li class="menu-item"><a href="#" class="link-term">Hubungi Kami</a></li>
 												<li class="menu-item"><a href="#" class="link-term">Pengembalian</a></li>
 												<li class="menu-item"><a href="#" class="link-term">Lokasi</a></li>
-												{{-- <li class="menu-item"><a href="#" class="link-term">Specials</a></li> --}}
 												<li class="menu-item"><a href="#" class="link-term">Riwayat Pengiriman</a></li>
 											</ul>
 										</div>
@@ -351,74 +346,8 @@
 								</div>
 							</div>
 						</div>
-
-						{{-- <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
-							<div class="wrap-footer-item">
-								<h3 class="item-header">Dowload App</h3>
-								<div class="item-content">
-									<div class="wrap-list-item apps-list">
-										<ul>
-											<li><a href="#" class="link-to-item" title="our application on apple store"><figure><img src="assets/images/brands/apple-store.png" alt="apple store" width="128" height="36"></figure></a></li>
-											<li><a href="#" class="link-to-item" title="our application on google play store"><figure><img src="assets/images/brands/google-play-store.png" alt="google play store" width="128" height="36"></figure></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div> --}}
-
 					</div>
 				</div>
-
-				{{-- <div class="wrap-back-link">
-					<div class="container">
-						<div class="back-link-box">
-							<h3 class="backlink-title">Quick Links</h3>
-							<div class="back-link-row">
-								<ul class="list-back-link" >
-									<li><span class="row-title">Mobiles:</span></li>
-									<li><a href="#" class="redirect-back-link" title="mobile">Mobiles</a></li>
-									<li><a href="#" class="redirect-back-link" title="yphones">YPhones</a></li>
-									<li><a href="#" class="redirect-back-link" title="Gianee Mobiles GL">Gianee Mobiles GL</a></li>
-									<li><a href="#" class="redirect-back-link" title="Mobiles Karbonn">Mobiles Karbonn</a></li>
-									<li><a href="#" class="redirect-back-link" title="Mobiles Viva">Mobiles Viva</a></li>
-									<li><a href="#" class="redirect-back-link" title="Mobiles Intex">Mobiles Intex</a></li>
-									<li><a href="#" class="redirect-back-link" title="Mobiles Micrumex">Mobiles Micrumex</a></li>
-									<li><a href="#" class="redirect-back-link" title="Mobiles Bsus">Mobiles Bsus</a></li>
-									<li><a href="#" class="redirect-back-link" title="Mobiles Samsyng">Mobiles Samsyng</a></li>
-									<li><a href="#" class="redirect-back-link" title="Mobiles Lenova">Mobiles Lenova</a></li>
-								</ul>
-
-								<ul class="list-back-link" >
-									<li><span class="row-title">Tablets:</span></li>
-									<li><a href="#" class="redirect-back-link" title="Plesc YPads">Plesc YPads</a></li>
-									<li><a href="#" class="redirect-back-link" title="Samsyng Tablets" >Samsyng Tablets</a></li>
-									<li><a href="#" class="redirect-back-link" title="Qindows Tablets" >Qindows Tablets</a></li>
-									<li><a href="#" class="redirect-back-link" title="Calling Tablets" >Calling Tablets</a></li>
-									<li><a href="#" class="redirect-back-link" title="Micrumex Tablets" >Micrumex Tablets</a></li>
-									<li><a href="#" class="redirect-back-link" title="Lenova Tablets Bsus" >Lenova Tablets Bsus</a></li>
-									<li><a href="#" class="redirect-back-link" title="Tablets iBall" >Tablets iBall</a></li>
-									<li><a href="#" class="redirect-back-link" title="Tablets Swipe" >Tablets Swipe</a></li>
-									<li><a href="#" class="redirect-back-link" title="Tablets TVs, Audio" >Tablets TVs, Audio</a></li>
-								</ul>
-
-								<ul class="list-back-link" >
-									<li><span class="row-title">Fashion:</span></li>
-									<li><a href="#" class="redirect-back-link" title="Sarees Silk" >Sarees Silk</a></li>
-									<li><a href="#" class="redirect-back-link" title="sarees Salwar" >sarees Salwar</a></li>
-									<li><a href="#" class="redirect-back-link" title="Suits Lehengas" >Suits Lehengas</a></li>
-									<li><a href="#" class="redirect-back-link" title="Biba Jewellery" >Biba Jewellery</a></li>
-									<li><a href="#" class="redirect-back-link" title="Rings Earrings" >Rings Earrings</a></li>
-									<li><a href="#" class="redirect-back-link" title="Diamond Rings" >Diamond Rings</a></li>
-									<li><a href="#" class="redirect-back-link" title="Loose Diamond Shoes" >Loose Diamond Shoes</a></li>
-									<li><a href="#" class="redirect-back-link" title="BootsMen Watches" >BootsMen Watches</a></li>
-									<li><a href="#" class="redirect-back-link" title="Women Watches" >Women Watches</a></li>
-								</ul>
-
-							</div>
-						</div>
-					</div>
-				</div> --}}
-
 			</div>
 
 			<div class="coppy-right-box">
