@@ -2,16 +2,18 @@ Evaluasi Akhir Semester Pengembangan Teknologi Web
 
 Kelompok 
  -Adistya Oktaviano         (1461900176)
- -Seach Jiddan Hasan Aji    (1461900287) 
+ -Seach Jiddan Hasan Aji    (1461900287)
 
 
 Login Website dengan cara klik tombol login dan memasukkan data :
 
 Admin : 
+
     username : Admin
     password : 12345678
 
 User :
+
     user 1 :
     username : User
     password : 87654321

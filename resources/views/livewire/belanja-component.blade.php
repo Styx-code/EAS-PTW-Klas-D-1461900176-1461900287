@@ -65,12 +65,12 @@
                         <li class="col-lg-4 col-md-6 col-sm-6 col-xs-6 ">
                             <div class="product product-style-3 equal-elem ">
                                 <div class="product-thumnail">
-                                    <a href="detail.html" title="{{ $produk->nama }}">
+                                    <a href="{{ route('produk.detail',['slug'=>$produk->slug]) }}" title="{{ $produk->nama }}">
                                         <figure><img src="{{ asset('assets/images/products')}}/{{ $produk->image }}" alt="{{ $produk->nama }}"></figure>
                                     </a>
                                 </div>
                                 <div class="product-info">
-                                    <a href="#" class="product-name"><span>{{ $produk->nama }}</span></a>
+                                    <a href="{{ route('produk.detail',['slug'=>$produk->slug]) }}" class="product-name"><span>{{ $produk->nama }}</span></a>
                                     <div class="wrap-price"><span class="product-price">{{ $produk->harga_normal }}</span></div>
                                     <a href="#" class="btn add-to-cart">Add To Cart</a>
                                 </div>
@@ -205,7 +205,7 @@
                             <li class="product-item">
                                 <div class="product product-widget-style">
                                     <div class="thumbnnail">
-                                        <a href="detail.html" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
+                                        <a href="{{ route('produk.detail',['slug'=>$produk->slug]) }}" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
                                             <figure><img src="{{ asset('assets/images/products/digital_01.jpg')}}" alt=""></figure>
                                         </a>
                                     </div>
@@ -219,7 +219,7 @@
                             <li class="product-item">
                                 <div class="product product-widget-style">
                                     <div class="thumbnnail">
-                                        <a href="detail.html" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
+                                        <a href="{{ route('produk.detail',['slug'=>$produk->slug]) }}" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
                                             <figure><img src="{{ asset('assets/images/products/digital_17.jpg')}}" alt=""></figure>
                                         </a>
                                     </div>
@@ -233,7 +233,7 @@
                             <li class="product-item">
                                 <div class="product product-widget-style">
                                     <div class="thumbnnail">
-                                        <a href="detail.html" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
+                                        <a href="{{ route('produk.detail',['slug'=>$produk->slug]) }}" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
                                             <figure><img src="{{ asset('assets/images/products/digital_18.jpg')}}" alt=""></figure>
                                         </a>
                                     </div>
@@ -247,7 +247,7 @@
                             <li class="product-item">
                                 <div class="product product-widget-style">
                                     <div class="thumbnnail">
-                                        <a href="detail.html" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
+                                        <a href="{{ route('produk.detail',['slug'=>$produk->slug]) }}" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
                                             <figure><img src="{{ asset('assets/images/products/digital_20.jpg')}}" alt=""></figure>
                                         </a>
                                     </div>
