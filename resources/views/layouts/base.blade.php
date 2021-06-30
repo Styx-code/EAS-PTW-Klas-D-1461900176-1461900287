@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Toko JUAL BELI</title>	
+	<title>Distro EAS</title>	
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic,900,900italic&amp;subset=latin,latin-ext" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open%20Sans:300,400,400italic,600,600italic,700,700italic&amp;subset=latin,latin-ext" rel="stylesheet">
@@ -46,10 +46,10 @@
 								
 								<li class="menu-item lang-menu menu-item-has-children parent">
 									<a title="English" href="#"><span class="img label-before"><img src="assets/images/lang-id1.png" alt="lang-id"></span>Bahasa Indonesia<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-									<ul class="submenu lang" >
+									{{-- <ul class="submenu lang" >
 										<li class="menu-item" ><a title="hungary" href="#"><span class="img label-before"><img src="assets/images/lang-en.png" alt="lang-hun"></span>Bahasa Inggris</a></li>
 										
-									</ul>
+									</ul> --}}
 								</li>
 								@if (Route::has('login'))
 								@auth
@@ -147,10 +147,12 @@
 								</a>
 							</div>
 							<div class="wrap-icon-section minicart">
-								<a href="#" class="link-direction">
+								<a href="{{ route('produk.keranjang') }}" class="link-direction">
 									<i class="fa fa-shopping-basket" aria-hidden="true"></i>
 									<div class="left-info">
-										<span class="index">0 items</span>
+										@if(Cart::count()>0)
+										<span class="index">{{ Cart::count() }} item</span>
+										@endif
 										<span class="title">Keranjang</span>
 									</div>
 								</a>
@@ -354,7 +356,7 @@
 			<div class="coppy-right-box">
 				<div class="container">
 					<div class="coppy-right-item item-left">
-						<p class="coppy-right-text">Copyright © 2021 14619xxx - 14619xxx.</p>
+						<p class="coppy-right-text">Copyright © 2021 1461900176 - 1461900287.</p>
 					</div>
 					<div class="coppy-right-item item-right">
 						<div class="wrap-nav horizontal-nav">

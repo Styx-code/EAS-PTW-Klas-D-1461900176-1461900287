@@ -1,8 +1,5 @@
-
 <main id="main" class="main-site">
-
     <div class="container">
-
         <div class="wrap-breadcrumb">
             <ul>
                 <li class="item-link"><a href="/" class="link">home</a></li>
@@ -10,7 +7,6 @@
             </ul>
         </div>
         <div class="row">
-
             <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12 main-content-area">
                 <div class="wrap-product-detail">
                     <div class="detail-media">
@@ -50,7 +46,7 @@
                             </div>
                         </div>
                         <div class="wrap-butons">
-                            <a href="#" class="btn add-to-cart">Tambah ke Keranjang</a>
+                            <a href="#" class="btn add-to-cart" wire:click.prevents="store({{ $produk->id}},'{{ $produk->nama }}',{{ $produk->harga_normal }})">Tambah ke Keranjang</a>
                         </div>
                     </div>
                     <div class="advance-info">
@@ -81,7 +77,6 @@
                     </div>
                 </div>
             </div><!--end main products area-->
-
             <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 sitebar">
                 <div class="widget widget-our-services ">
                     <div class="widget-content">
