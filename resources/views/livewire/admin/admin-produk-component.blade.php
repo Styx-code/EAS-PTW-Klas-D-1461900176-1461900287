@@ -12,7 +12,14 @@
             <div class="col-md-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        Semua Produk
+                        <div class="row">
+                            <div class="col-md-6">
+                                Semua Produk
+                            </div>
+                            <div class="col-md-6">
+                                <a href="{{ route('admin.addproduk') }}" class="btn btn-success pull-right">Tambah baru</a>
+                            </div>
+                        </div>
 
                     </div>
                     <div class="panel-body">
