@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Livewire\Admin\AdminDashboardComponent;
+use App\Http\Livewire\Admin\AdminProdukComponent;
 use App\Http\Livewire\BelanjaComponent;
 use App\Http\Livewire\CheckoutComponent;
 use App\Http\Livewire\DetailComponent;
@@ -38,4 +39,5 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function(){
 //admin
 Route::middleware(['auth:sanctum', 'verified', 'authadmin'])->group(function(){
     Route::get('admin/dashboard', AdminDashboardComponent::class)->name('admin.dashboard');
+    Route::get('/admin/produk', AdminProdukComponent::class)->name('admin.produk');
 });
