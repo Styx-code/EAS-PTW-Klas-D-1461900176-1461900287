@@ -37,7 +37,7 @@
 						<div class="topbar-menu left-menu">
 							<ul>
 								<li class="menu-item" >
-									<a title="Hotline: (+123) 456 789" href="#" ><span class="icon label-before fa fa-mobile"></span>Hubungi Kami: (+62)8570788977</a>
+									<a title="Hotline: (+123) 456 789" href="#" ><span class="icon label-before fa fa-mobile"></span>Hubungi Kami: 081804257664</a>
 								</li>
 							</ul>
 						</div>
@@ -262,11 +262,11 @@
 											</li>
 											<li>
 												<i class="fa fa-phone" aria-hidden="true"></i>
-												<p class="contact-txt">(+62)8570788977</p>
+												<p class="contact-txt">082338063232</p>
 											</li>
 											<li>
 												<i class="fa fa-envelope" aria-hidden="true"></i>
-												<p class="contact-txt">TokoBaju@gmail.com</p>
+												<p class="contact-txt">distroEAS@gmail.com</p>
 											</li>											
 										</ul>
 									</div>
@@ -281,7 +281,8 @@
 								<div class="item-content">
 									<div class="wrap-hotline-footer">
 										<span class="desc">Hubungi Kami : </span>
-										<b class="phone-number">(+62)8570788977</b>
+										<b class="phone-number">081804257664</b>
+										<b class="phone-number">082338063232</b>
 									</div>
 								</div>
 							</div>

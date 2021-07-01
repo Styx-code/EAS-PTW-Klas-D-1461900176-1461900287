@@ -26,17 +26,17 @@
                         <div class="product-name">
                             <a class="link-to-product" href="{{ route('produk.detail', ['slug'=>$item->model->slug]) }}">{{ $item->model->nama }}</a>
                         </div>
-                        <div class="price-field produtc-price"><p class="price">Rp{{ $item->model->harga_awal }}</p></div>
+                        <div class="price-field produtc-price"><p class="price">Rp{{ $item->model->harga_normal }}</p></div>
                         <div class="quantity">
                             <div class="quantity-input">
-                                <input type="text" name="product-quatity" value="{{ $item->jumlah }}" data-max="120" pattern="[0-9]*" >									
-                                <a class="btn btn-increase" href="#"></a>
-                                <a class="btn btn-reduce" href="#"></a>
+                                <input type="text" name="product-quatity" value="{{ $item->jml }}" data-max="120" pattern="[0-9]*" >		
+                                <a class="btn btn-increase" href="#" wire:click.prevents="tambah('{{ $item->rowId }}')"></a>
+                                <a class="btn btn-reduce" href="#" wire:click.prevents="kurang('{{ $item->rowId }}')"></a>
                             </div>
                         </div>
                         <div class="price-field sub-total"><p class="price">Rp{{ $item->subtotal }}</p></div>
                         <div class="delete">
-                            <a href="#" class="btn btn-delete" title="">
+                            <a href="#" wire:click.prevents="destroy('{{ $item->rowId }}')" class="btn btn-delete" title="">
                                 <span>Hapus Dari Keranjang</span>
                                 <i class="fa fa-times-circle" aria-hidden="true"></i>
                             </a>
@@ -65,7 +65,7 @@
                     <a class="link-to-shop" href="{{ route('belanja') }}">Lanjutkan Berbelanja<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
                 </div>
                 <div class="update-clear">
-                    <a class="btn btn-clear" href="#">Bersihkan Keranjang</a>
+                    <a class="btn btn-clear" href="#" wire:click.prevents="destroyAll()">Bersihkan Keranjang</a>
                     <a class="btn btn-update" href="#">Update Keranjang</a>
                 </div>
             </div>

@@ -12,7 +12,7 @@ class BelanjaComponent extends Component
     public function store($produk_id, $produk_nama,$produk_harga)
     {
         Cart::add($produk_id,$produk_nama,1,$produk_harga)->associate('App\Models\Produk');
-        Session()->flash('success_message','Item ditambahkan ke Keranjang');
+        session()->flash('success_message','Item ditambahkan ke Keranjang');
         return redirect()->route('produk.keranjang');
 
     }
