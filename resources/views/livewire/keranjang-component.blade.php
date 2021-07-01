@@ -9,6 +9,7 @@
             </ul>
         </div>
         <div class=" main-content-area">
+            
             <div class="wrap-iten-in-cart">
                 @if (Session::has('succes_message'))
                     <div class="alert alert-succes">
@@ -61,7 +62,7 @@
                     <label class="checkbox-field">
                         <input class="frm-input " name="have-code" id="have-code" value="" type="checkbox"><span>Gunakan Voucher</span>
                     </label>
-                    <a class="btn btn-checkout" href="checkout.html">Check out</a>
+                    <a class="btn btn-checkout" href="#" >Check out</a>
                     <a class="link-to-shop" href="{{ route('belanja') }}">Lanjutkan Berbelanja<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
                 </div>
                 <div class="update-clear">
